@@ -748,7 +748,7 @@ button{
 
 
 /* =============== FOOTER =============== */
-/* =============== FOOTER =============== */
+
 .footer {
   position: relative;
   overflow: hidden;
@@ -1149,4 +1149,52 @@ button{
   0% { transform: translate(0,  0px); }
   50%  { transform: translate(0, 15px); }
   100%   { transform: translate(0, -0px); }   
+}
+
+
+
+@media screen and (max-width: 450px){
+  .footer__img-one {
+    width: 60px; 
+    top: 2rem;
+    right: -1rem;
+  }
+  
+  .footer__img-two {
+display: none;
+  }
+  
+  .footer__logo {
+    font-size: 1.2rem;
+  }
+  
+  .footer__description {
+    margin-bottom: var(--mb-1);
+  }
+  
+  .footer__copy {
+    margin-top: 2rem; 
+  }
+  
+
+
+:root{
+
+
+  /* Green gradient adjustments */
+  --body-color: hsl(120, 35%, 46%); /* Cambio el fondo a un color sólido para mejorar la legibilidad */
+  --container-color: hsl(60, 1%, 18%); /* Cambio el color del contenedor a uno más claro */
+
+  /* Font and typography adjustments */
+  --biggest-font-size: 1.25rem; /* Reduzco el tamaño de la fuente más grande */
+  --h1-font-size: 2.25rem; /* Ajusto el tamaño de h1 */
+  --h2-font-size: 1.75rem; /* Ajusto el tamaño de h2 */
+  --normal-font-size: .813rem; /* Reduzco el tamaño de la fuente normal */
+  --small-font-size: .688rem; /* Reduzco el tamaño de la fuente pequeña */
+  --smaller-font-size: .625rem; /* Reduzco el tamaño de la fuente más pequeña */
+
+
+}
+
+
 }
