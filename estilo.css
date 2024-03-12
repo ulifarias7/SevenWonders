@@ -1171,7 +1171,7 @@ button{
 
 
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 500px){
   .footer__img-one {
     width: 60px; 
     top: 2rem;
@@ -1194,6 +1194,25 @@ display: none;
     margin-top: 2rem; 
   }
   
+
+
+/* --------------------- */
+.newsletter__container img {
+  max-width: 50px; /* Reducir el tamaño de la imagen para dispositivos móviles */
+  margin-top: 10px; /* Ajustar el margen superior */
+}
+.section__title {
+  font-size: 1.5rem; /* Ajustar el tamaño de la fuente del título para dispositivos móviles */
+}
+
+
+
+/* ----------------- */
+.category__container {
+  grid-template-columns: 1fr; /* Cambiar a una sola columna */
+  gap: 1rem; /* Ajustar el espacio entre elementos */
+}
+
 
 
 :root{
