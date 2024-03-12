@@ -936,7 +936,7 @@ button{
 }
 
 /* For medium devices */
-@media screen and (min-width: 576px){
+/* @media screen and (min-width: 576px){
   .about__container{
     grid-template-columns: .8fr;
     justify-content: center;
@@ -950,7 +950,7 @@ button{
   .newsletter__description{
     padding: 0 3rem;
   }
-}
+} */
 
 @media screen and (min-width: 767px){
   body{
@@ -1214,15 +1214,14 @@ display: none;
 }
 
 
+body{
+  background: var(--body-color);
+}
 
 :root{
 
 
-  /*Green gradient*/
-  --body-color: linear-gradient(90deg, hsl(103, 35%, 45%) 0%, hsl(132, 86%, 8%) 100%);
-  --container-color: linear-gradient(136deg, hsl(60, 2%, 24%) 0%, hsl(0, 0%, 0%) 100%);
-
-
+ 
   /* Font and typography adjustments */
   --biggest-font-size: 1.25rem; /* Reduzco el tamaño de la fuente más grande */
   --h1-font-size: 2.25rem; /* Ajusto el tamaño de h1 */
