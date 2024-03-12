@@ -18,8 +18,8 @@
 
 
   /*Green gradient*/
-  --body-color: linear-gradient(90deg, hsl(120, 35%, 46%) 0%, hsl(132, 86%, 8%) 100%);
-  --container-color: linear-gradient(136deg, hsl(60, 1%, 18%) 0%, hsl(0, 0%, 0%) 100%);
+  --body-color: linear-gradient(90deg, hsl(103, 35%, 45%) 0%, hsl(132, 86%, 8%) 100%);
+  --container-color: linear-gradient(136deg, hsl(60, 2%, 24%) 0%, hsl(0, 0%, 0%) 100%);
 
 
 
@@ -305,11 +305,13 @@ button{
   background-color: var(--title-color);
   top: -3rem;
   right: 45%;
+
 }
 
 .home__details-img{
   position: absolute;
   right: .5rem;
+  bottom: 15rem;
  
 }
 
@@ -655,6 +657,16 @@ button{
 
 .newsletter__input::placeholder{
   color: var(--text-color);
+}
+
+
+.newsletter__container img {
+  display: block; 
+  margin: 0 auto;
+  max-width: 100px;
+  height: auto; 
+  border-radius: 0.75rem; 
+  margin-top: 20px;
 }
 
 /*=============== FOOTER ===============*/
@@ -1187,9 +1199,10 @@ display: none;
 :root{
 
 
-  /* Green gradient adjustments */
-  --body-color: hsl(120, 35%, 46%); /* Cambio el fondo a un color sólido para mejorar la legibilidad */
-  --container-color: hsl(60, 1%, 18%); /* Cambio el color del contenedor a uno más claro */
+  /*Green gradient*/
+  --body-color: linear-gradient(90deg, hsl(103, 35%, 45%) 0%, hsl(132, 86%, 8%) 100%);
+  --container-color: linear-gradient(136deg, hsl(60, 2%, 24%) 0%, hsl(0, 0%, 0%) 100%);
+
 
   /* Font and typography adjustments */
   --biggest-font-size: 1.25rem; /* Reduzco el tamaño de la fuente más grande */
@@ -1204,3 +1217,10 @@ display: none;
 
 
 }
+
+
+
+
+
+
+
