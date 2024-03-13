@@ -1,6 +1,5 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -18,7 +17,7 @@
 
 
   /*Green gradient*/
-  --body-color: linear-gradient(90deg, hsl(103, 35%, 45%) 0%, hsl(132, 86%, 8%) 100%);
+  --body-color: linear-gradient(90deg, hsl(126, 59%, 41%) 0%, hsl(132, 86%, 8%) 100%);
   --container-color: linear-gradient(136deg, hsl(60, 2%, 24%) 0%, hsl(0, 0%, 0%) 100%);
 
 
@@ -27,21 +26,21 @@
 
 
   /*========== Font and typography ==========*/
-  --body-font: 'Poppins', sans-serif;
-  --biggest-font-size: 2rem;
-  --h1-font-size: 1.5rem;
-  --h2-font-size: 1.25rem;
-  --h3-font-size: 1rem;
-  --normal-font-size: .938rem;
-  --small-font-size: .813rem;
-  --smaller-font-size: .75rem;
+  --body-font: 'Luckiest Guy', sans-serif;
+  --biggest-font-size: 5rem; /* Ajustado: Tamaño de fuente más grande */
+  --h1-font-size: 4.25rem; /* Ajustado: Tamaño de fuente h1 */
+  --h2-font-size: 3.35rem; /* Ajustado: Tamaño de fuente h2 */
+  --h3-font-size: 2.75rem; /* Ajustado: Tamaño de fuente h3 */
+  --normal-font-size: 2.35rem; /* Ajustado: Tamaño de fuente normal */
+  --small-font-size: 1.75rem; /* Ajustado: Tamaño de fuente pequeña */
+  --smaller-font-size: 1.25rem; /* Ajustado: Tamaño de fuente más pequeña */
 
 
 
   /*========== Font weight ==========*/
-  --font-medium: 500;
-  --font-semi-bold: 600;
-  --font-black: 900;
+  --font-medium: 1000;
+  --font-semi-bold:800 ;
+  --font-black: 1200;
 
 
 
@@ -95,7 +94,8 @@ body{
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background: var(--body-color);
-  color: var(--text-color);
+  color:var(--text-color);
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* Agregar sombra a la fuente */
 }
 
 h1,h2,h3,h4{
@@ -162,6 +162,7 @@ button{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
+  border-bottom: 2px solid black;
 }
 
 /*=============== NAV ===============*/
