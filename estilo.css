@@ -833,7 +833,7 @@ button{
 
 .footer__social-link {
   display: inline-flex;
-  background: var(--container-color);
+  /* background: var(--container-color); */
   padding: .25rem;
   border-radius: .25rem;
   color: var(--title-color);
@@ -863,6 +863,16 @@ button{
 .footer__link:hover {
   color: var(--title-color);
 }
+
+/* Estilos para los íconos de redes sociales */
+.social-icon {
+  width: 24px; /* Ajusta el ancho según sea necesario */
+  height: 24px; /* Ajusta la altura según sea necesario */
+  vertical-align: middle; /* Centra verticalmente */
+  margin-right: 5px; /* Ajusta el margen derecho según sea necesario */
+}
+
+
 
 .footer__copy {
   display: block;
