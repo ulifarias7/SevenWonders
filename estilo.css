@@ -1243,6 +1243,12 @@ body{
 
 }
 
+.home__title {
+  font-size: 3rem; /* ajusta el tamaño de fuente según tus necesidades */
+}
+.home__subtitle {
+  font-size: 1.5rem; /* ajusta el tamaño de fuente según tus necesidades */
+}
 
 }
 
